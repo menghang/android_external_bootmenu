@@ -514,17 +514,17 @@ show_menu_overclock(void) {
 
       case OVERCLOCK_DEFAULT:
         ui_print("Set defaults...");
-	set_overclock_value("enable", 1);
-	set_overclock_value("scaling", 0);
-	set_overclock_value("sched", 1);
-	set_overclock_value("clk1", 300);
-	set_overclock_value("clk2", 600);
-	set_overclock_value("clk3", 800);
-	set_overclock_value("clk4", 1000);
-	set_overclock_value("vsel1", 33);
-	set_overclock_value("vsel2", 48);
-	set_overclock_value("vsel3", 58);
-	set_overclock_value("vsel4", 62);
+        set_overclock_value("enable", 1);
+        set_overclock_value("scaling", 0);
+        set_overclock_value("sched", 1);
+        set_overclock_value("clk1", 300);
+        set_overclock_value("clk2", 600);
+        set_overclock_value("clk3", 800);
+        set_overclock_value("clk4", 1000);
+        set_overclock_value("vsel1", 33);
+        set_overclock_value("vsel2", 48);
+        set_overclock_value("vsel3", 58);
+        set_overclock_value("vsel4", 62);
         set_overclock_config();
         break;
 
